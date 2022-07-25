@@ -13,24 +13,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <title>Sarthak | Portfolio</title>
-  <link rel="stylesheet" href="index.8593c900.css">
+  <link rel="stylesheet" href="/assets/index.36ed13d5.css">
 </head>
 
-<body class="font-poppins bg-white">
+<body class="font-poppins bg-zinc-900">
 
-    <header class="py-4 bg-gray">
-        <div class="container flex justify-between items-center mx-auto px-8 w-full">
+    <header class="my-3 mx-3 py-4 rounded-xl bg-black border-2 border-red-700">
+        <div class="container flex justify-between items-center mx-auto px-8 w-full text-white">
             <div class="text-2xl font-semibold">Sarthak</div>
-            <div class="hidden md:flex space-x-12 items-center text-lg">
-                <a href="#" class="hover:underline underline-offset-4 decoration-2">Home</a>
-                <a href="#skills" class="hover:underline underline-offset-4 decoration-2">Skills</a>
-                <a href="#projects" class="hover:underline underline-offset-4 decoration-2">Projects</a>
-                <a href="#contact" class="hover:underline underline-offset-4 decoration-2">Contact</a>
+            <div class="hidden md:flex space-x-12 items-center text-xl font-medium">
+                <a href="#" class="hover:underline decoration-red-600 underline-offset-4 decoration-2">Home</a>
+                <a href="#skills" class="hover:underline decoration-red-600 underline-offset-4 decoration-2">Skills</a>
+                <a href="#projects" class="hover:underline decoration-red-600 underline-offset-4 decoration-2">Projects</a>
+                <a href="#contact" class="hover:underline decoration-red-600 underline-offset-4 decoration-2">Contact</a>
             </div>
             <div class="md:hidden">
                 <button class="outline-none mobile-menu-button">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="34" height="34" viewBox="0 0 30 30"
-                        style=" fill:#000000;">
+                        style=" fill:#ffffff;">
                         <path
                             d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z">
                         </path>
@@ -39,14 +39,14 @@
             </div>
         </div>
         <div class="hidden mobile-menu px-7 pt-5">
-            <ul class="">
-                <li><a href="#home" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Home</a></li>
+            <ul class="text-white text-base font-semibold">
+                <li><a href="#home" class="block px-2 py-4 transition duration-300">> Home</a></li>
                 <li><a href="#skills"
-                        class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Skills</a></li>
+                        class="block px-2 py-4 transition duration-300">> Skills</a></li>
                 <li><a href="#projects"
-                        class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Projects</a></li>
+                        class="block px-2 py-4 transition duration-300">> Projects</a></li>
                 <li><a href="#contact"
-                        class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact</a></li>
+                        class="block px-2 py-4 transition duration-300">> Contact</a></li>
             </ul>
         </div>
         <script>
@@ -60,26 +60,27 @@
     </header>
 
 
-
-
-    <section id="home" class="text-gray-800">
-        <div class="container m-auto flex px-1 py-2 items-center justify-center flex-col">
-            <img class="lg:w-auto md:w-auto w-5/6 mb-10 object-cover object-center rounded" alt="hero"
-                src="/images/Programmer Thomas.gif">
+    <section class="text-white" id="home">
+        <div class="container m-auto flex px-1 py-1 items-center justify-center flex-col lg:flex-row">
+            <img class="lg:w-3/6 md:w-5/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+                src="/images/heor.svg">
             <div class="text-center lg:w-2/3 w-full px-2">
-                <h1 class="title-font sm:text-5xl text-3xl mb-4 font-semibold text-gray-900">Hi, I am Sarthak! 👋</h1>
-                <p class="mb-8 text-lg leading-relaxed">I am a Developer. I have a life. I prefer tea over
+                <h1 class="title-font text-5xl lg:text-8xl mb-4 font-semibold text-red-600">Hi, I am Sarthak!</h1>
+                <p class="mb-8 lg:py-10 text-base lg:text-3xl leading-relaxed text-white">I am a Developer. I have a life. I prefer tea over
                     coffee.<br>I know that's not very "Developer" of me!<br>Nevermind, this is what I have learnt and
                     built to call myself a Developer.</p>
-            </div>
+            </div>  
         </div>
     </section>
+    
 
-    <section class="text-gray-800 py-3">
-        <div id="skills" class="text-center w-full py-10">
-            <h1 class="title-font sm:text-5xl text-4xl mb-4 font-semibold text-gray-900">My Skillset</h1>
+<!---------SKILLS---------->
+    <section class="text-gray-800 pt-3">
+        <div id="skills" class="text-center w-full py-5">
+            <h1 class="title-font bg-black bg-opacity-40 mx-3 py-3 rounded-xl border border-red-600 border-opacity-30 text-4xl sm:text-5xl lg:text-5xl mb-4 font-semibold text-red-600">My Skillset</h1>
         </div>
         <div class="flex flex-wrap gap-x-5 justify-center mx-auto px-4">
+            <div class="flex flex-wrap gap-x-5 justify-center mx-auto px-4 bg-black bg-opacity-20 py-4 rounded-xl border border-red-600 border-opacity-10">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90" height="90" viewBox="0 0 48 48"
                 style=" fill:#000000;">
                 <polygon fill="#e7a42b" points="8,5 42,5 38,39 25,43 11,39"></polygon>
@@ -165,19 +166,20 @@
                 </path>
             </svg>
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90" height="90" viewBox="0 0 24 24"
-                style=" fill:#000000;">
+                style=" fill:#ffffff;">
                 <path
                     d="M 11 3 L 11 8.1582031 C 10.653 8.0172031 9.9041562 8 9.5351562 8 C 6.7591563 8 4.1894531 9.306 4.1894531 13 C 4.1894531 17.42 7.67 18 10 18 C 10.92 18 13 17.909141 14 17.619141 L 14 3 L 11 3 z M 16 3 L 16 6 L 19 6 L 19 3 L 16 3 z M 16 8 L 16 16.701172 C 16 18.217172 15.078 19.795172 13 20.701172 L 15.859375 21.996094 C 18.765375 20.996094 19 17.701172 19 16.701172 L 19 8 L 16 8 z M 9.9707031 10.550781 C 10.290703 10.550781 10.65 10.609453 11 10.689453 L 11 15.392578 C 10.65 15.472578 10.290703 15.533203 9.9707031 15.533203 C 8.6607031 15.533203 7.390625 15.12 7.390625 13 C 7.390625 10.88 8.6607031 10.550781 9.9707031 10.550781 z">
                 </path>
             </svg>
+        </div>
 
             <div class="text-center lg:w-2/3 w-full mt-6">
-                <p class="mb-1 text-lg leading-relaxed">Learning is a never-ending process and I am currently
+                <p class="mb-1 text-lg leading-relaxed text-white">Learning is a never-ending process and I am currently
                     learning.<br> Although, like every other professional developer, I am a PROFESSIONAL GOOGLE
                     RESEARCHER.<br>So, I know how to get the job done. 😼</p>
             </div>
-            <img class="lg:w-auto md:w-auto w-5/6 mb-10 object-cover object-center rounded" alt="hero"
-                src="/images/learning.gif">
+            <img class="lg:w-4/12 md:w-auto w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+                src="/images/skills.svg">
         </div>
 
     </section>
@@ -185,15 +187,17 @@
     <!-----PROJECTS----->
     <section>
         <div id="projects" class="text-center w-full py-10 ">
-            <h1 class="title-font sm:text-5xl text-3xl mb-4 font-semibold text-gray-900">Projects</h1>
+            <h1 class="title-font bg-black bg-opacity-40 mx-3 py-3 rounded-xl border border-red-600 border-opacity-30 sm:text-5xl text-4xl lg:text-5xl mb-4 font-semibold text-red-600">Projects</h1>
             <div class="container m-auto flex px-1 py-4 items-center justify-center flex-col">
-                <div class="bg-gray w-72 hover:animate-pulse rounded-xl overflow-hidden shadow-xl">
-                    <img class="w-full" src="/images/hope.jpg" alt="Sunset in the mountains">
+                <div class="bg-black w-72 rounded-xl border-2 border-white border-opacity-40 overflow-hidden shadow-xl">
+                    <img class="w-full" src="/images/chrome.jpg" alt="">
                     <div class="px-6 py-4">
-                      <div class="font-bold text-xl mb-2">Project 404</div>
-                      <p class="text-gray-700 text-base">
-                        uwu i don't have anything to showcase rn but i promise i will be back! for the time being i have just created this card :D
+                      <div class="font-bold text-red-600 text-xl mb-2">Meme Extended</div>
+                      <p class="text-white text-sm">
+                        When you need a quick escape from some boring stuff you are doing, this chrome extension helps you in doing so by providing random memes in one click using an API.
                       </p>
+                      <br>
+                      <a href="https://chrome.google.com/webstore/detail/meme-extended/idlbmmhidnbnkjbjfmieddfaojajofho"><button class="text-white text-base border-2 border-red-600 hover:animate-pulse px-2 py-1 rounded-md">View Here</button></a>
                     </div>
                   </div>
 
@@ -207,16 +211,14 @@
 
 
     <!-----CONTACT 0E3140----->
-    <section>
-        <div class="text-center w-full">
-            <img class="lg:w-full md:w-full object-cover object-center rounded w-full" alt="hero" src="/images/connect.gif">
+    <section class="bg-black bg-opacity-40 pt-5 border border-red-600 border-opacity-30 mx-4 my-4 rounded-2xl">
+        <div id="contact" class="text-center w-full">
+            <h1 class="title-font sm:text-5xl text-4xl lg:text-5xl font-semibold text-red-600">Contact Me</h1>
         </div>
-        <div id="contact" class="text-center w-full bg-gif">
-            <h1 class="title-font sm:text-5xl text-3xl font-semibold text-white pb-8">Get in touch</h1>
-        </div>
-        <div class="flex flex-wrap gap-x-8 gap-y-5 justify-center mx-auto px-14 py-6 bg-gif">
+        <img  class="w-auto lg:w-1/4 mx-auto" src="/iamges/contact..svg">
+        <div class="flex flex-wrap gap-x-5 gap-y-8 justify-center mx-auto px-3 py-4 bg-gif">
             <a href="https://www.instagram.com/sarthakk.wav/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                    width="80" height="80" viewBox="0 0 512 512" style=" fill:#000000;">
+                    width="70" height="70" viewBox="0 0 512 512" style=" fill:#000000;">
                     <path fill="#71C598"
                         d="M166.1,75c-4.2-0.1-8.3-0.2-12.5,0c0.7,29.1,5.4,59.3-2,87.8c1.9,0.3,3.7,0.7,5.5,1.3c2,0.6,3.6,1.4,5,2.4c1.7-4.8,1.8-10.5,1.9-15.3c0.2-7.2,0-14.5,0.2-21.7c0.3-9.4,2.1-18.6,2.2-28C166.5,92.6,166.2,83.8,166.1,75z">
                     </path>
@@ -265,8 +267,8 @@
                         </path>
                     </g>
                 </svg></a>
-            <a href="https://github.com/0xSenpy"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80"
-                    height="80" viewBox="0 0 512 512" style=" fill:#000000;">
+            <a href="https://github.com/0xSenpy"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70"
+                    height="70" viewBox="0 0 512 512" style=" fill:#000000;">
                     <path fill="#283D5B"
                         d="M346.4,231.4c-3.2-7.2-6.5-14.5-6.5-22.6c0-6.8,3.1-12.4,3.8-18.9c0.3-2.6,0.2-4.3-2.6-5c-2.8-0.6-5.4-0.5-8.1,0.4c-5.3,1.7-11.4,5.1-15,9.7c-0.2,3.5-4.1,6.8-7.7,4c-12.7-9.8-31.6-10.1-46.9-9.5c-14.4,0.6-29.8,2.3-43.5,7c-0.8,0.3-1.7,0.4-2.4,0.3c-1.2,0-2.5-0.5-3.6-1.5c-3.8-3.7-7.7-7.3-11.9-10.5c-4.4-3.3-10.1-7.8-15.8-8.1c-11.2-0.6-4.1,19.8-1.5,28.9c2.1,1.4,3.2,4.2,1.5,6.9c-4.8,7.2-13.5,12.8-16.5,21.2c-2.9,8.2-2.6,16.7-0.6,25.1c1.7,7.6,4.7,14.4,9.5,20.6c3.7,4.8,9.9,12.6,16.9,11.3c1.5-0.3,2.8,0.1,3.8,0.8c12.8,1.9,23.3,12,26.3,24.6c3.4,14.6-4.9,27.3-18.8,32.1c-14.6,5.1-28.1,0.4-35-13.4c-2.3-4.5-3.6-9.8-6.5-14c-1.9-2.7-4.3-3.8-7.1-4c2.2,10.8,1,22.9,9.4,31.1c9.5,9.2,22.5,7,34.5,8c9,0.8,15.6,5.7,13.8,15.5c-1.1,6.2-3.6,12.3-5.7,18.3c-2.1,6.1-2.5,11.3-2.6,17.5c1.5,0.2,3.1,0.5,4.6,0.7c29.4,3.7,59.2-1.1,86.4-12.5c-0.6-1.5-0.6-3.3,0.7-5c1.8-2.4,1.7-6.5,1.6-9.3c-0.2-4.8-0.9-9.7-2.1-14.4c-1.9-7.8-4.1-16.4-8.6-23.1c-5.3-8-12.9-15.6-14.2-25.5c-1.1-8.4,3.4-21.5,13.1-22.4c1.2-0.1,2.3,0.2,3.1,0.7c9.4-1.2,19-2.8,27.9-6.1c8.5-3.2,15.4-7.6,21.7-14.1c5.4-5.6,9.9-12.6,10.4-20.5C352.7,246.9,349.9,239.1,346.4,231.4z">
                     </path>
@@ -284,8 +286,8 @@
                         d="M411.7,206.3c-15.6-47.3-57-82.4-103.6-96.9c-22.3-6.9-46.3-8.8-69.4-5.1c-20.7,3.3-39.5,11.8-57.2,22.8c-21.4,13.2-41.5,30-56.6,50.2c-12.7,17.1-21.3,37.8-17.8,59c-1.8,0.7-3.4,2.3-3.5,4.8c-0.2,6.2-1.5,12.5-1.8,18.7c-0.3,5.7-0.4,11.4-0.4,17.1c0.1,10.9,0.9,21.8,2.5,32.6c3.1,20.7,9.7,41.1,21.1,58.8c26.3,40.8,77,54.2,123.2,50.1C346.2,409.4,445.4,308.6,411.7,206.3z M299.2,390.3c-1.3,1.7-1.3,3.5-0.7,5c-27.2,11.4-57,16.2-86.4,12.5c-1.5-0.2-3.1-0.4-4.6-0.7c0.1-6.2,0.5-11.4,2.6-17.5c2-6,4.5-12.1,5.7-18.3c1.8-9.8-4.9-14.7-13.8-15.5c-12.1-1-25,1.1-34.5-8c-8.5-8.1-7.2-20.3-9.4-31.1c2.8,0.1,5.2,1.2,7.1,4c2.9,4.2,4.3,9.4,6.5,14c6.9,13.9,20.4,18.5,35,13.4c13.8-4.8,22.2-17.5,18.8-32.1c-3-12.6-13.5-22.7-26.3-24.6c-1-0.7-2.2-1.1-3.8-0.8c-7,1.3-13.1-6.5-16.9-11.3c-4.8-6.2-7.7-13-9.5-20.6c-1.9-8.4-2.3-16.9,0.6-25.1c3-8.4,11.7-13.9,16.5-21.2c1.8-2.7,0.6-5.5-1.5-6.9c-2.6-9.2-9.7-29.5,1.5-28.9c5.8,0.3,11.5,4.8,15.8,8.1c4.2,3.2,8.2,6.8,11.9,10.5c1.1,1.1,2.3,1.5,3.6,1.5c0.8,0.1,1.6,0,2.4-0.3c13.7-4.7,29.1-6.5,43.5-7c15.3-0.6,34.2-0.3,46.9,9.5c3.6,2.8,7.5-0.5,7.7-4c3.6-4.6,9.6-8,15-9.7c2.8-0.9,5.3-1,8.1-0.4c2.9,0.6,2.9,2.4,2.6,5c-0.7,6.5-3.8,12.1-3.8,18.9c0,8,3.2,15.4,6.5,22.6c3.5,7.7,6.3,15.6,5.7,24.1c-0.5,8-5,14.9-10.4,20.5c-6.3,6.5-13.2,11-21.7,14.1c-8.9,3.3-18.5,5-27.9,6.1c-0.8-0.5-1.8-0.8-3.1-0.7c-9.7,0.9-14.2,14-13.1,22.4c1.3,9.9,8.9,17.5,14.2,25.5c4.5,6.7,6.7,15.3,8.6,23.1c1.1,4.7,1.8,9.5,2.1,14.4C301,383.8,301.1,387.9,299.2,390.3z M353,360.3c-12.8,11.9-27.4,22-43,29.8c1.1-4.3,1-8.9,0.6-13.3c-0.8-8.9-3.2-17.9-6.2-26.3c-2.8-7.8-7-14-11.8-20.7c-2.7-3.8-5.7-7.9-6.6-12.5c-0.4-2.1-0.3-4.2,0.4-6.2c0.3-1,1.7-3.7,2.7-4.9c0.7,0.2,1.5,0.4,2.4,0.2c11.8-1.4,23.4-3.7,34.6-7.9c9.9-3.7,18-10,25-17.9c6.1-7,10.2-15.1,11.1-24.4c1-10.2-2.6-20.2-6.7-29.3c-3.8-8.6-7.2-16.8-4.3-26.2c2-6.4,4.9-14.7,0.3-20.7c-4.8-6.4-14.5-6.6-21.5-4.3c-6.7,2.2-14,6.2-18.8,11.7c-13.4-7.7-30.8-8.4-45.7-8c-15.5,0.4-31.5,2.2-46.4,6.9c-9.6-9.4-22.2-20.8-36-19.6c-7.8,0.7-12.9,9.1-13.1,16.2c-0.3,9.3,4.1,18,5.5,27.1c-5.8,7.3-13.4,13.3-16.1,22.7c-3,10.6-2.1,21.3,0.7,31.9c2.4,9,7,17,13,24.1c5.3,6.3,12.7,12.2,21.1,12c0.4,0.1,0.8,0.2,1.3,0.3c11.2,1.1,19.9,9.9,20.6,21.3c0.8,12.7-16.1,21.4-27,17.2c-8.6-3.4-10.8-14.8-14.6-22.2c-5.1-9.8-14.6-11.7-24.7-9.4c-2.6,0.6-4,4-3.1,6.4c4.6,11.6,1.5,25.2,9.6,35.6c3.8,4.9,7.5,8.7,13.1,11.5c5.5,2.7,11.8,3.6,17.9,4c5.2,0.3,10.4-0.1,15.6,0.6c3.4,0.5,3.4,1,2.8,4.4c-1.2,6.4-4,12.7-6,18.9c-1.6,5-2.1,9.6-2.2,14.5c0,0.2,0,0.5,0,0.7v0.7c-18.2-4.1-35.3-11.9-49.2-24.7c-15.3-14.1-24.8-33.2-30.3-53c-3.7-13.3-5.5-27.1-6.2-40.9c-0.4-7-0.4-14-0.2-21.1c0.2-6.7,1.2-13.3,1.8-20c0.5-0.1,1-0.2,1.4-0.4c0.5-5.6,1.1-11.1,1.4-16.7c0-0.1,0-0.3,0.1-0.4c-0.5-15.9,6.9-31.3,16.2-44.2c13.1-18.1,30.7-32.8,49.3-45.1c17.2-11.4,35.9-20.6,56.4-24.3c23.2-4.2,47-1.8,69.4,5.1c47.4,14.7,87.4,54.1,98.4,103.1C417.6,274.8,390.2,325.7,353,360.3z">
                     </path>
                 </svg></a>
-            <a href="mailto:sarthak3062@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80"
-                    height="80" viewBox="0 0 48 48" style=" fill:#000000;">
+            <a href="mailto:sarthak3062@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70"
+                    height="70" viewBox="0 0 48 48" style=" fill:#000000;">
                     <path fill="#d6e5e5"
                         d="M26.198,7.106C18.583,7.563,13.513,7.104,6.273,7.104c-1.693,0-3.809,0.94-3.903,4.044	c-0.255,8.417-0.214,16.134-0.405,24.553C1.922,37.577,2,39.732,3.453,40.92c0.958,0.783,2.273,0.922,3.507,1.01	c4.99,0.359,9.998,0.082,15,0.19c8.282,0.179,12.561-1.048,18.807-0.416c1.606,0.162,3.573,0.258,4.452-1.095	c0.496-0.762,0.37-1.741,0.397-2.649c0.199-6.838-0.041-10.225,0.252-16.247c0.163-3.35,0.335-6.541,0.267-10.542	c-0.044-2.624-1.75-3.763-2.761-4.237c-0.82-0.385-2.646-0.387-3.552-0.407c-5.102-0.114-8.431,0.09-13.508,0.619">
                     </path>
@@ -323,8 +325,8 @@
                         d="M8.546,42.31l-0.374-0.335L7.851,41.59c2.441-2.361,4.966-4.803,7.599-7.049	c0.938-0.801,1.879-1.688,2.876-2.627c1.889-1.779,3.841-3.619,5.871-4.936c0.231-0.15,0.541-0.085,0.691,0.146	c0.15,0.231,0.084,0.542-0.147,0.691c-1.953,1.268-3.873,3.076-5.729,4.825c-1.006,0.948-1.957,1.844-2.913,2.659	C13.49,37.527,10.977,39.958,8.546,42.31z M8.173,41.975h0.01H8.173z">
                     </path>
                 </svg></a>
-            <a href="https://twitter.com/h4dotsh"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80"
-                    height="80" viewBox="0 0 48 48" style=" fill:#000000;">
+            <a href="https://twitter.com/h4dotsh"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70"
+                    height="70" viewBox="0 0 48 48" style=" fill:#000000;">
                     <font horiz-adv-x="2000">
                         <font-face font-family="Lato-Regular" underline-position="-140" underline-thickness="120"
                             units-per-em="2000"></font-face>
@@ -1087,7 +1089,7 @@
                     </path>
                 </svg></a>
             <a href="https://www.linkedin.com/in/sarthak-prakash-a513001b8/"><svg xmlns="http://www.w3.org/2000/svg"
-                    x="0px" y="0px" width="80" height="80" viewBox="0 0 512 512" style=" fill:#000000;">
+                    x="0px" y="0px" width="70" height="70" viewBox="0 0 512 512" style=" fill:#000000;">
                     <path fill="#D6E5E5"
                         d="M185.4 109c-10.3-4.3-23.9-3.1-33.5 2.6-5.5 3.3-10.5 8.2-11.6 14.9-1.3 8.4 2.4 16.1 8.8 21.6 1 .8 1.5 1.8 1.8 2.7 8.7 3.6 18.4 6.9 27.4 4.2 7.7-2.4 14.7-7.5 17.4-15.3C199.6 128.1 197.5 114 185.4 109zM421.4 270.2c-.4-20.7-1.8-42.7-11.2-61.6-9.3-18.7-26.8-30.8-47.5-33.5-19.2-2.5-40.1 2.2-53.7 16.6-2.2 2.3-5 2.1-7 .8 0 0-.1 0-.1 0-3.5-1.1-5.1-3.6-6.4-6.8-.7-1.7-1.3-3.4-2.1-5.1-.2-.3-.3-.5-.4-.7-.4-.1-.9-.1-1.3-.2-6.1-.4-12.4.8-18.5.9-6.4 0-12.7.2-19.1.7-3.3.3-6.7.5-9.9 1.4-1.1.3-2.3.6-3.4 1.1-.2.4-.4.7-.6 1 .7 13.6 4 26.8 6 40.2 2.4 15.7 3 31.9 4.3 47.7 2 25.6 2.5 51.1 2.5 76.7 17.2.2 34.4 1.6 51.5 2.6 0-.2 0-.4 0-.7 0 0 0-.1 0-.1-.1-.2-.1-.4-.2-.6-1-2.5-.1-4.6 1.6-5.9 1.8-18.6 2.2-37.6 1.6-56.2-.7-19.5-4.8-38.7-4.9-58.2 0-2.4 1.2-4.1 2.9-5 0-10.4 12-15.5 21.3-17.2 11.9-2.2 27.1-1.1 35.6 8.6 5.9 6.8 5.9 18 6.3 26.5.5 12.1.5 24.3 1.5 36.4.6 6.7 1.3 13.6 1 20.3-.3 5.9-.9 11.7-1.1 17.6-.2 5.7-.3 11.5-.8 17.2-.4 3.8-1.5 7.8-2.2 11.6 17.8-.5 35.6-2.6 53.4-2.9.6-.5 1.2-.8 2.1-.9C422.4 318.6 421.9 294.4 421.4 270.2zM213.3 324.1c-.6-10.4 0-20.8-.3-31.1-.8-23-3.5-45.9-7.3-68.7-1.3-8.1-2-15.7-2.3-23.9-.1-3.4.2-9.8-3.7-11.4-3.3-1.4-7.3-.6-10.7-.1-5.1.6-10.1 1.3-15.1 2-8.9 1.1-17.8 2-26.8 1.9 2.1 23.2 5.2 46.3 6.8 69.5 2.1 29.5 1.8 59.1 3 88.7 10.2-2.3 21.8-.3 31.7.4 4.3.3 8.7.4 13 .5 2.5.1 5 .1 7.5.1 1 0 2-.1 3-.1.2-.1.4-.3.7-.4C215.6 342.8 213.8 332.8 213.3 324.1z">
                     </path>
