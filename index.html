@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="data:image/x-icon;base64,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" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Sarthak | Portfolio</title>
   <link rel="stylesheet" href="index.36ed13d5.css">
 </head>
@@ -50,6 +50,7 @@
             </ul>
         </div>
         <script>
+            AOS.init();
             const btn = document.querySelector("button.mobile-menu-button");
             const menu = document.querySelector(".mobile-menu");
 
@@ -80,7 +81,7 @@
             <h1 class="title-font bg-black bg-opacity-40 mx-3 py-3 rounded-xl border border-red-600 border-opacity-30 text-4xl sm:text-5xl lg:text-5xl mb-4 font-semibold text-red-600">My Skillset</h1>
         </div>
         <div class="flex flex-wrap gap-x-5 justify-center mx-auto px-4">
-            <div class="flex flex-wrap gap-x-5 justify-center mx-auto px-4 bg-black bg-opacity-20 py-4 rounded-xl border border-red-600 border-opacity-10">
+            <div data-aos="zoom-in-up" data-aos-duration="1200" class="flex flex-wrap gap-x-5 justify-center mx-auto px-4 bg-black bg-opacity-20 py-4 rounded-xl border border-red-600 border-opacity-10">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90" height="90" viewBox="0 0 48 48"
                 style=" fill:#000000;">
                 <polygon fill="#e7a42b" points="8,5 42,5 38,39 25,43 11,39"></polygon>
@@ -189,7 +190,7 @@
         <div id="projects" class="text-center w-full py-10 ">
             <h1 class="title-font bg-black bg-opacity-40 mx-3 py-3 rounded-xl border border-red-600 border-opacity-30 sm:text-5xl text-4xl lg:text-5xl mb-4 font-semibold text-red-600">Projects</h1>
             <div class="container m-auto flex px-1 py-4 items-center justify-center flex-col">
-                <div class="bg-black w-72 rounded-xl border-2 border-white border-opacity-40 overflow-hidden shadow-xl">
+                <div data-aos="zoom-in" class="bg-black w-72 rounded-xl border-2 border-white border-opacity-40 overflow-hidden shadow-xl">
                     <img class="w-full" src="/images/chrome.jpg" alt="">
                     <div class="px-6 py-4">
                       <div class="font-bold text-red-600 text-xl mb-2">Meme Extended</div>
